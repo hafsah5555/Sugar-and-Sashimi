@@ -665,6 +665,8 @@ section {
   background-color: #f8f9fa;
 }
 
+
+
 .section-title {
   padding-bottom: 40px;
 }
@@ -812,8 +814,81 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 15px 0;
+  
+}
+.content{
+  padding: 15px 0;
+}
+#content #ourStory .osImage img{
+  transition: all 0.4s ease-in-out;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+#content #ourStory .osImage img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+#content #ourStory {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  max-height: 525px;
+  overflow: hidden;
+  margin-bottom: 55px;
+}
+
+#main #ourStory .osContent {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -302.5px;
+  padding: 30px 80px 0px;
+  width: 605px;
+  height: 525px;
+  box-sizing: border-box;
   text-align: center;
 }
+
+#main #ourStory .osContent h2 {
+  font-family: 'Lovers Quarrel',cursive;
+  font-size: 66px;
+  line-height: 70px;
+  color: #614936;
+  margin-bottom: -17px;
+  padding-bottom: 10px;
+}
+/* line 176, ../scss/breakpoints/_1260up.scss */
+#main #ourStory .osContent h3 {
+  font-family: 'Lovers Quarrel',cursive;
+  font-size: 66px;
+  line-height: 70px;
+  color: #614936;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.15em;
+  background: url("../img/blog/lines/lines.png") left bottom repeat-x;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+/* line 188, ../scss/breakpoints/_1260up.scss */
+#main #ourStory .osContent p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #614936;
+  margin-bottom: 35px;
+  text-align: center;
+} 
+
+/*
+@media only screen and (min-width: 720px){
+#main #ourStory .osContent p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #614936;
+    margin-bottom: 15px;
+    text-align: center;
+}
+}*/
 .clients img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
