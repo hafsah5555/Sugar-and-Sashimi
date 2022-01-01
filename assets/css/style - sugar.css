@@ -1014,7 +1014,16 @@ section {
 .services .icon-box:hover h4 a {
   color: #d9232d;
 }
-
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -2102,12 +2111,13 @@ section {
   font-size: 14px;
 }
 
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   background:  rgba(255, 153, 160, 0.699);
-  padding: 0 0 15px 0;
+  padding: 0px 0 10px 0;
   color: rgb(85, 24, 24);
   font-size: 14px;
 }
