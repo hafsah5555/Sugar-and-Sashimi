@@ -983,6 +983,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: rgba(73, 24, 27, 0.719);
+}
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
@@ -2103,20 +2106,21 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:  #e28989;
-  padding: 0 0 30px 0;
-  color: rgb(66, 22, 22);
+  background:  rgba(255, 153, 160, 0.699);
+  padding: 0 0 15px 0;
+  color: rgb(85, 24, 24);
   font-size: 14px;
 }
 #footer .footer-top {
-  background:#ffa2a2 ;
-  padding: 60px 0 30px 0;
+  background:#4b1515b4 ;
+  padding: 30px 0 20px 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-info h3 {
-  font-size: 30pxpx;
+  color: #ffd5d7;
+  font-size: 30px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -2127,13 +2131,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:rgb(66, 22, 22);
+  color:#ffd5d7;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 158, 158, 0.897);
-  color: rgb(66, 22, 22);
+  background: #ffd5d7;
+  color: rgb(85, 23, 23);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2144,14 +2148,14 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #501d20;
-  color: rgb(253, 154, 154);
+  background: #ffd5d7;
+  color: rgb(78, 25, 25);
   text-decoration: none;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: rgb(66, 22, 22);
+  color: #ffd5d7;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2165,7 +2169,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: rgb(66, 22, 22);
+  color: #ffd5d7;
   font-size: 18px;
   line-height: 1;
 }
@@ -2178,13 +2182,13 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color:rgb(66, 22, 22);
+  color:#ffd5d7;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: rgb(255, 106, 106);
+  color: rgb(214, 122, 122);
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -2207,13 +2211,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #49181b;
-  color: rgb(247, 147, 147);
+  background: #f8878f;
+  color: rgb(80, 32, 32);
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #612023c7;
+  background: #ff868cc7;
 }
 #footer .copyright {
   text-align:left;
@@ -2223,7 +2227,7 @@ section {
   padding-top: 10px;
   text-align: right;
   font-size: 13px;
-  color: rgb(66, 22, 22);
+  color: rgb(65, 19, 19);
 }
 #footer .credits a {
   color: rgba(255, 255, 255, 0.6);
