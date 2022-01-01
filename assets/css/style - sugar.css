@@ -2230,10 +2230,10 @@ section {
   color: rgb(65, 19, 19);
 }
 #footer .credits a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(80, 30, 30, 0.6);
   transition: 0.3s;
   font-weight: 600;
 }
 #footer .credits a:hover {
-  color: white;
+  color: rgb(63, 25, 25);
 }
