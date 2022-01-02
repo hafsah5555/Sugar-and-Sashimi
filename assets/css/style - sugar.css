@@ -984,8 +984,42 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services{
-  background: rgba(73, 24, 27, 0.719);
+  background: rgba(236, 170, 170, 0.658);
+  padding: 0 0 0px 0;
 }
+#main .services .osContent h2 {
+  font-family: 'Lovers Quarrel',cursive;
+  font-size: 80px;
+  color: #3a1312;
+  margin-bottom: -17px;
+  padding-bottom: 10px;
+}
+ #main .services .osContent .ContentBlock__paragraph{
+  padding: 32px 0 45px;
+  line-height: 60px;
+ }
+p{
+  margin: 0;
+  font-weight: 400;
+}
+.services .ContentBlock__wrapper {
+  display: inline-block;
+
+  width: 100%;
+  
+}
+.services .ContentBlock__heading .ContentBlock__subheading {
+  display: block;
+}
+.services .ContentBlock__heading {
+  color: #fffbfb;
+}
+
+
+.services .h2 {
+  line-height: 59px;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
