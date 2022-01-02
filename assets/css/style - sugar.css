@@ -859,6 +859,13 @@ section {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+#main .about .osContent h2 {
+  font-family: 'Lovers Quarrel',cursive;
+  font-size: 80px;
+  color: #3a1312;
+  margin-bottom: -17px;
+  padding-bottom: 10px;
+}
 .about .content h3 {
   font-weight: 500;
   line-height: 32px;
