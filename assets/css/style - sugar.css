@@ -1734,6 +1734,7 @@ p{
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgb(63, 21, 21);
+  height: 600px;
 }
 .blog .entry:hover{
   z-index: 1;
@@ -1742,17 +1743,18 @@ p{
   /*hover korlam*/
 }
 .blog .entry .entry-img {
-  max-height:250px;
+  
   margin: 0px;
   
-
+  
   overflow: hidden;
 }
 
 .blog .entry .entry-title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   padding: 0;
+  padding-top: 30px;
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
@@ -1789,7 +1791,8 @@ p{
   line-height: 1;
 }
 .blog .entry .entry-content p {
-  line-height: 24px;
+  line-height: 15px;
+  padding-bottom: 20px;
 }
 .blog .entry .entry-content .read-more {
   -moz-text-align-last: right;
