@@ -1788,15 +1788,17 @@ p{
   color: #460a0e;
   font-size: 14px;
   display: inline-block;
-  line-height: 1;
+  line-height: 0;
 }
 .blog .entry .entry-content p {
   line-height: 15px;
   padding-bottom: 20px;
 }
 .blog .entry .entry-content .read-more {
-  -moz-text-align-last: right;
-  text-align-last: right;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  padding-bottom: 60px ;
+  line-height: 15px;
 }
 .blog .entry .entry-content .read-more a {
   display: inline-block;
@@ -1806,6 +1808,7 @@ p{
   transition: 0.3s;
   font-size: 14px;
   border-radius: 4px;
+
 }
 .blog .entry .entry-content .read-more a:hover {
   background: rgb(253, 179, 179);
