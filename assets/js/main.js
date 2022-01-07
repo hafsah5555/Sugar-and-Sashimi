@@ -4,6 +4,105 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+/*
+const firebaseConfig = {
+  apiKey: "AIzaSyAMXYtWzJCy21N7MI72EgjbIgOOD5PVB14",
+  authDomain: "sugarandsashimi.firebaseapp.com",
+  databaseURL: "https://sugarandsashimi-default-rtdb.firebaseio.com",
+  projectId: "sugarandsashimi",
+  storageBucket: "sugarandsashimi.appspot.com",
+  messagingSenderId: "524144971019",
+  appId: "1:524144971019:web:0a9cdec068d109916b660e",
+  measurementId: "G-BXS81KX6LM"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
+
+var database=firebase.database();
+function sendMessage()
+{
+  ///getting the required values to send to firebase database and
+  ///saving them in the variabbles
+  var email=document.getElementById("email").value;
+  var name=document.getElementById("name").value;
+  var message=document.getElementById("message").value;
+  var comment=document.getElementById("comment").value;
+  
+  var newMessagekey=database.ref().child('comments').push().key;
+  database.ref('comments/'+newMessagekey+'/Email').set(email);
+  database.ref('comments/'+newMessagekey+'/Name').set(name);
+  database.ref('comments/'+newMessagekey+'/message').set(message);
+  database.ref('comments/'+newMessagekey+'/Comment').set(comment);
+
+}
+///submit form
+function submitForm(e)
+{
+  e.preventDefault();
+}
+///Listen for submit
+document.getElementById('contactForm').addEventListener('submit',submitForm);
+///show alert
+document.querySelector('.alert').getElementsByClassName.display='block';
+
+///hide alert after 3 secs
+function hideAlert()
+{
+  document.querySelector('.alert').getElementsByClassName.display="none";
+}
+setTimeout(hideAlert,3000); */
+
+
+function show() {
+
+  var name = document.getElementById("name").value;
+  var id= document.getElementById("id").value;
+  var email= document.getElementById("email").value;
+
+
+   firebase.database().ref('User/' + id).set({
+          name : name,
+          id : id,  ///id ->fire base er id : id->amar id
+          email : email
+        }, function(error) {
+          if (error) {
+            // The write failed...
+          } else {
+              alert("DONE");
+            
+         
+          }
+        });
+} 
+function comm() {
+
+  var name = document.getElementById("name").value;
+  
+  var email= document.getElementById("email").value;
+  var comment= document.getElementById("comment").value;
+
+
+   firebase.database().ref('User/' + name).set({
+          name : name,
+          email : email,
+            ///id ->fire base er id : id->amar id
+            comment : comment
+        }, function(error) {
+          if (error) {
+            // The write failed...
+          } else {
+              alert("Your Comment has been Taken!");
+            
+         
+          }
+        });
+} 
+
+
+
+
 (function() {
   "use strict";
 
