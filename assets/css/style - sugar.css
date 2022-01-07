@@ -2386,6 +2386,8 @@ p{
   margin-top: 30px;
   padding: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  background-color: #f7abab;
 }
 .blogS .blogS-comments .reply-form h4 {
   font-weight: bold;
@@ -2397,6 +2399,7 @@ p{
 .blogS .blogS-comments .reply-form input {
   border-radius: 4px;
   padding: 10px 10px;
+
   font-size: 14px;
 }
 .blogS .blogS-comments .reply-form input:focus {
@@ -2413,16 +2416,17 @@ p{
   border-color: #e9797f;
 }
 .blogS .blogS-comments .reply-form .form-group {
+  margin-top: 20px;
   margin-bottom: 25px;
 }
 .blogS .blogS-comments .reply-form .btn-primary {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #556270;
+  background-color: #581010;
 }
 .blogS .blogS-comments .reply-form .btn-primary:hover {
-  background-color: #606f7e;
+  background-color: #f08a8a;
 }
 .blogS .blogS-comments {
   margin-bottom: 30px;
@@ -2503,14 +2507,17 @@ p{
   padding: 30px;
   margin: 0 0 60px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: #ff898993;
+  color: #471212;
 }
 .blogS .Ssidebar .sidebar-title {
   font-size: 20px;
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #556270;
+ 
   position: relative;
+ 
 }
 .blogS .Ssidebar .sidebar-item {
   margin-bottom: 30px;
@@ -2557,7 +2564,7 @@ p{
   padding-top: 10px;
 }
 .blogS .sidebar .categories ul a {
-  color: #556270;
+  color: #631715;
   transition: 0.3s;
 }
 .blogS .Ssidebar .categories ul a:hover {
@@ -2565,7 +2572,7 @@ p{
 }
 .blogS .Ssidebar .categories ul a span {
   padding-left: 5px;
-  color: #aaaaaa;
+  color: #681717;
   font-size: 14px;
 }
 .blogS .Ssidebar .recent-posts .post-item + .post-item {
@@ -2581,18 +2588,18 @@ p{
   font-weight: bold;
 }
 .blogS .Ssidebar .recent-posts h4 a {
-  color: #556270;
+  color: #572118;
   transition: 0.3s;
 }
 .blogS .Ssidebar .recent-posts h4 a:hover {
-  color: #d9232d;
+  color: #fc5e66;
 }
 .blogS .Ssidebar .recent-posts time {
   display: block;
   margin-left: 95px;
   font-style: italic;
   font-size: 14px;
-  color: #aaaaaa;
+  color: #5e1515;
 }
 .blogS .Ssidebar .tags {
   margin-bottom: -10px;
@@ -2605,7 +2612,7 @@ p{
   display: inline-block;
 }
 .blogS .Ssidebar .tags ul a {
-  color: #96a2af;
+  color: #5a1c1c;
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
