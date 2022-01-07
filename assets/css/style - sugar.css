@@ -1224,6 +1224,63 @@ p{
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.container #banner .campus_info{
+  width: 65%; 
+  padding-right: 50px;
+}
+
+
+.container #banner .campus_info .campus_tour h2{
+  font-size: 25px;
+  /* margin-bottom: 30px; */
+  margin: 20px 0;
+  font-weight: 800 ;
+}
+
+.container #banner .campus_info .campus_tour img{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.container #banner .campus_info .campus_tour p { 
+  font-size: 16px ;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.container #banner .campus_info .four_campus{
+  font-size: 25px;
+  padding-top: 40px;
+  font-weight: 800 ;
+}
+
+.container #banner .campus_info .campuses h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+  font-weight: 800 ;
+
+}
+
+.container #banner .campus_info .campuses .para p{
+  width: 55%;
+  line-height: 25px;
+}
+
+.container #banner .campus_info .campuses .para{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px ;
+  /* line-height: 20px; */
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.container #banner .campus_info .campuses .para img{
+  width: 40%;
+  max-height:205px ;
+  /* margin-bottom: 50px; */
+}
 
 /*--------------------------------------------------------------
 # Our Team
