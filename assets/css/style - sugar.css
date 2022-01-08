@@ -1108,11 +1108,11 @@ p{
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(138, 50, 24, 0.6);
+  background: rgba(253, 149, 118, 0.6);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(150, 76, 34, 0.6);
+  background: rgba(255, 171, 123, 0.6);
   position: absolute;
   left: 0;
   right: 0;
