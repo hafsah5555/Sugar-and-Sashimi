@@ -1071,6 +1071,9 @@ p{
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  background-image: url(../img/pitha.png);
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1088,14 +1091,14 @@ p{
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #752908;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #d9232d;
+  background: #752908;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1105,11 +1108,11 @@ p{
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(85, 98, 112, 0.6);
+  background: rgba(138, 50, 24, 0.6);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(85, 98, 112, 0.6);
+  background: rgba(150, 76, 34, 0.6);
   position: absolute;
   left: 0;
   right: 0;
@@ -2184,16 +2187,19 @@ p{
 --------------------------------------------------------------*/
 .blogS {
   padding: 40px 0 20px 0;
+  background-image: url(../img/blueberrymuffin.png);
 }
 .blogS .entryS {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .blogS .entryS .entryS-img {
   /*max-height: 440px;*/
   margin: 0;
   overflow: hidden;
+
 }
 .blogS .entryS .entryS-title {
   font-size: 32px;
@@ -2212,7 +2218,7 @@ p{
 }
 .blogS .entryS .entryS-meta {
   margin-bottom: 15px;
-  color: #d16a6a;
+  color: #581f1f;
 }
 .blogS .entryS .entryS-meta ul {
   display: flex;
@@ -2221,27 +2227,32 @@ p{
   align-items: center;
   padding: 0;
   margin: 0;
+  font-weight: 800;
 }
 .blogS .entryS .entryS-meta ul li + li {
   padding-left: 20px;
+  font-weight: 800;
 }
 .blogS .entryS .entryS-meta i {
   font-size: 16px;
   margin-right: 8px;
   line-height: 0;
+  
 }
 .blogS .entryS .entryS-meta a {
-  color: #777777;
+  color: #531414;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
 }
 .blogS .entryS .entryS-content p {
   line-height: 24px;
+  font-weight: 800;
 }
 .blogS .entryS .entryS-content h3{
   line-height: 24px;
   color: #772226;
+  font-weight: 800;
 }
 .blogS .entryS .entryS-content .read-more {
   -moz-text-align-last: right;
@@ -2266,7 +2277,7 @@ p{
 }
 .blogS .entryS .entryS-content blockquote {
   overflow: hidden;
-  background-color: #c7797996;
+  background-color: #f5a6a6d5;
   padding: 60px;
   position: relative;
   text-align: center;

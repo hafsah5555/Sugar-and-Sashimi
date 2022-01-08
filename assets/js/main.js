@@ -58,19 +58,21 @@ setTimeout(hideAlert,3000); */
 function show() {
 
   var name = document.getElementById("name").value;
-  var id= document.getElementById("id").value;
+  
   var email= document.getElementById("email").value;
+  var comment= document.getElementById("comment").value;
 
 
-   firebase.database().ref('User/' + id).set({
+   firebase.database().ref('Cupcake/' + name).set({
           name : name,
-          id : id,  ///id ->fire base er id : id->amar id
-          email : email
+          email : email,
+            ///id ->fire base er id : id->amar id
+            comment : comment
         }, function(error) {
           if (error) {
             // The write failed...
           } else {
-              alert("DONE");
+              alert("Your Comment has been Taken!");
             
          
           }
@@ -84,7 +86,30 @@ function comm() {
   var comment= document.getElementById("comment").value;
 
 
-   firebase.database().ref('User/' + name).set({
+   firebase.database().ref('ChocolateCookie/' + name).set({
+          name : name,
+          email : email,
+            ///id ->fire base er id : id->amar id
+            comment : comment
+        }, function(error) {
+          if (error) {
+            // The write failed...
+          } else {
+              alert("Your Comment has been Taken!");
+            
+         
+          }
+        });
+} 
+function pie() {
+
+  var name = document.getElementById("name").value;
+  
+  var email= document.getElementById("email").value;
+  var comment= document.getElementById("comment").value;
+
+
+   firebase.database().ref('BlueberryPie/' + name).set({
           name : name,
           email : email,
             ///id ->fire base er id : id->amar id
