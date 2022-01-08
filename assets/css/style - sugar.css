@@ -806,13 +806,16 @@ section {
   padding: 15px 0;
   background: #f1a1a1;
   transition: 2s;
-  min-height: 40px;
-  margin-top: 150px;
+  /*min-height: 40px;*/
+  margin-top: 70px;
+  
 }
 .breadcrumbs h2 {
   font-size: 32px;
   font-weight: 300;
   margin: 0;
+  padding-left: 40%;
+  font-style: bold;
 }
 .breadcrumbs ol {
   display: flex;
@@ -1224,63 +1227,6 @@ p{
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-.container #banner .campus_info{
-  width: 65%; 
-  padding-right: 50px;
-}
-
-
-.container #banner .campus_info .campus_tour h2{
-  font-size: 25px;
-  /* margin-bottom: 30px; */
-  margin: 20px 0;
-  font-weight: 800 ;
-}
-
-.container #banner .campus_info .campus_tour img{
-  max-width: 100%;
-  margin-bottom: 30px;
-}
-
-.container #banner .campus_info .campus_tour p { 
-  font-size: 16px ;
-  line-height: 20px;
-  padding-bottom: 10px;
-}
-
-.container #banner .campus_info .four_campus{
-  font-size: 25px;
-  padding-top: 40px;
-  font-weight: 800 ;
-}
-
-.container #banner .campus_info .campuses h2{
-  font-size: 20px;
-  margin-bottom: 20px;
-  
-  font-weight: 800 ;
-
-}
-
-.container #banner .campus_info .campuses .para p{
-  width: 55%;
-  line-height: 25px;
-}
-
-.container #banner .campus_info .campuses .para{
-  display: flex;
-  flex-direction: row;
-  font-size: 16px ;
-  /* line-height: 20px; */
-  padding-bottom: 10px;
-  justify-content: space-between;
-}
-
-.container #banner .campus_info .campuses .para img{
-  width: 40%;
-  max-height:205px ;
-  /* margin-bottom: 50px; */
-}
 
 /*--------------------------------------------------------------
 # Our Team
@@ -1594,7 +1540,7 @@ p{
   padding: 40px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: #fff;
+  background: rgb(241, 176, 176);
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -1776,6 +1722,7 @@ p{
 }
 .blog {
   padding: 40px 0 20px 0;
+  background-image: url("../img/slide/slide-3.jpg");
 }
 .box-shadow{
   box-shadow: rgb(70, 24, 22);
@@ -1792,6 +1739,7 @@ p{
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgb(63, 21, 21);
   height: 600px;
+  background-color: white;
 }
 .blog .entry:hover{
   z-index: 1;
