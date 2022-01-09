@@ -28,6 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style - sugar.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- =======================================================
   * Template Name: Sailor - v4.7.0
@@ -461,7 +462,14 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
   </script>
-
+<!--our aos data-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 3000,
+  });
+</script>
 </body>
 
 </html>
