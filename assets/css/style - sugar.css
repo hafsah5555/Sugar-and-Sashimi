@@ -870,10 +870,14 @@ section {
   padding-bottom: 10px;
 }
 .about .content h3 {
-  font-weight: 500;
+
   line-height: 32px;
-  font-size: 24px;
-  background-color: rgba(30, 35, 40, 0.6);
+  font-size: 30px;
+ 
+  background-color: rgba(255, 200, 200, 0.438);
+  color: rgb(63, 13, 13);
+  font-weight: 700;
+  font-family:'Sail' ;
 }
 .about .content ul {
   list-style: none;
@@ -1752,6 +1756,17 @@ p{
   font-size: 48px;
   line-height: 56px;
 }
+.blog  h3{
+  padding-left: 550px;
+  background-color: rgb(80, 21, 21,.7);
+  color: #ffb5b5;
+  font-family: 'Pariesienne';
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 50px;
+}
 .blog {
   padding: 40px 0 20px 0;
   background-image: url("../img/slide/slide-3.jpg");
@@ -2267,6 +2282,12 @@ p{
 .blogS .entryS .entryS-content p {
   line-height: 24px;
   font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+.blogS .entryS .entryS-content ul li  {
+  
+  font-weight: 500;
+  color: rgb(255, 255, 255);
 }
 .blogS .entryS .entryS-content h3{
   line-height: 24px;
