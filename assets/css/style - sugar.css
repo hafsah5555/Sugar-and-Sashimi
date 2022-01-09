@@ -873,6 +873,7 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
+  background-color: rgba(30, 35, 40, 0.6);
 }
 .about .content ul {
   list-style: none;
@@ -892,7 +893,25 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .osContent h2 u{
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 50px;
+  background-color: rgba(63, 13, 13, 0.733);
+  color: rgb(255, 160, 160);
+  font-weight: 700;
+  font-family:'Parisienne' ;
+ 
+}
 
+.about .osContent p h5{
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #410508;
+  font-family:'Parisienne' ;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
