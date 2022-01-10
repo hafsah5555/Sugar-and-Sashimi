@@ -2,7 +2,7 @@ const form = document.getElementById('comments');
 // adding data to db
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('comments').add({
+    db.collection('comments2').add({
        name: form.name.value,
        comment: form.comment.value
     });
@@ -31,7 +31,7 @@ renderList = (doc) => {
     div.appendChild(main_div);
 }
 
-db.collection('comments').onSnapshot(snap => {
+db.collection('comments2').onSnapshot(snap => {
     let changes = snap.docChanges();
     changes.forEach(change => {
         if (change.type == 'added') {
